@@ -125,7 +125,8 @@ SUMX(
 )
 ```
 #### Image
-![{E70046D0-9771-46C6-A7E6-9EC2688628EF}](https://github.com/user-attachments/assets/5d642fb2-dd29-43ad-a738-86e466e9260c)
+![{BAE62B14-DC7D-4C75-9A7E-64ADFD8E8AE7}](https://github.com/user-attachments/assets/50a64e0d-dbf2-4733-b2fb-d7e65269d18a)
+
 
 ```
 
@@ -192,6 +193,11 @@ COUNTROWS(
     FILTER('Loan_default', NOT(ISBLANK('Loan_default'[LoanID])))
 )
 ```
+#### Image
+![{AFE5012D-FE80-4890-97E3-BB7CD268A210}](https://github.com/user-attachments/assets/a2e01279-b5fc-4b4e-a78b-a5c3de043e58)
+
+
+```
 
 **Insights**:
 - Medium credit score borrowers dominate defaults
@@ -255,7 +261,11 @@ CALCULATE(
     ALLEXCEPT('Loan_default', 'Loan_default'[Credit Score Bins], 'Loan_default'[MaritalStatus])
 )
 ```
+#### Image
+![{A5622942-0750-4056-86BB-0BA4B5F8BEEC}](https://github.com/user-attachments/assets/19a9714e-c2ec-435b-b5c6-73e1114f0927)
 
+
+```
 **Insights**:
 - YOY default rates dropped slightly despite increased loan issuance
 - High-income, employed applicants carry bulk of loans
