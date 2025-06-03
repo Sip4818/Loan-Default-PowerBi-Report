@@ -124,6 +124,10 @@ SUMX(
     'Loan_default'[LoanAmount]
 )
 ```
+#### Image
+![{E70046D0-9771-46C6-A7E6-9EC2688628EF}](https://github.com/user-attachments/assets/5d642fb2-dd29-43ad-a738-86e466e9260c)
+
+```
 
 **Insights**:
 - Defaults are high in Adults and Middle Aged
