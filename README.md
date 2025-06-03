@@ -8,7 +8,7 @@ This Power BI report presents an in-depth analysis of loan default risks based o
 
 - **Raw Source**: Excel file containing:
   - **255,354 rows**
-  - **19 columns** (A to S)
+  - **19 columns**
 - **ETL Flow**:
   1. Loaded from **Excel** into **SQL Server**
   2. Pulled into **Power BI Dataflow**
